@@ -106,8 +106,12 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
-
 }
+.button-hero:hover,
+.button-hero:focus{
+background-color:var(--accent-color);
+}
+
 
 .footer-text{
     color: var(--white-color);
