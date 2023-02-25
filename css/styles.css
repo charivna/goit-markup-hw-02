@@ -48,10 +48,11 @@ body{
   }
 .site-contacts .link{
     color:var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+    font-style: normal;
+  
 }
 .site-contacts .link:hover,
 .site-contacts .link:focus 
@@ -63,32 +64,36 @@ body{
 }
   .hero-title{
 color:var(--white-color);
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 }
-.section-title{
+.section-title, .team-title{
     color:var(--title-text-color);
-    
-        font-weight: 700;
+
         font-size: 36px;
         line-height: 1.1;
     
         text-align: center;
         text-transform: capitalize;
 }
-.features-list .title, 
+.features-list .title,
 .team .title
 {
     color:var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+
 }
 .team{
     background-color: var(--buttons-background-color);
+}
+
+.team .list
+{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .studio-footer{
     color: var(--white-color);
@@ -96,7 +101,10 @@ letter-spacing: 0.02em;
 .button-hero{
     color:var(--white-color);
     background-color: var(--logo-web-color);
-    font-family: inherit;
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     cursor: pointer;
 
 }
@@ -109,6 +117,9 @@ letter-spacing: 0.02em;
     background-color:var(--buttons-background-color);
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .filter .button:hover,
